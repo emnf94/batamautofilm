@@ -54,3 +54,16 @@ body {
         padding: 2.2rem 0
     }
 }
+
+
+/* Uniform image sizing for WHY section */
+#why .why-img {
+    width: 100%;
+    height: 280px;
+    /* samakan tinggi untuk semua gambar */
+    object-fit: cover;
+    /* crop otomatis agar rapi */
+    border-radius: 8px;
+    /* opsional: biar lebih cantik */
+    margin: 10px 0;
+}
