@@ -1,0 +1,15 @@
+# Block folder listing
+
+Options -Indexes
+
+# Deny direct access to a folder
+
+<Directory "/src/img">
+Deny from all
+</Directory>
+
+# Protect specific files
+
+<FilesMatch "\.(json|md|txt)$">
+Deny from all
+</FilesMatch>
